@@ -8,9 +8,9 @@ The code solves the incompressible Navier Stokes Equation:
 
 $\dot{u} + \nabla u \cdot u - \nu \Delta u + \nabla p = f, \qquad \nabla \cdot u = 0$
 
-with constant velocity boundary condtition on the left, top and bottom domain boundary, zero pressure boundary condition on the right domain boundary and zero velocity boundary condition on the cylinder.
+with constant velocity boundary condtition on the left, top and bottom domain boundary, zero pressure boundary condition on the right domain boundary and zero velocity boundary condition around the cylinder
 
-![Boundary conditions sketch](BCs.png)
+<img src="BCs.PNG" alt="Boundary conditions sketch" width="500"/>
 
 The solution is obtained via the Chorins' method, which is preformed in 3 steps:
 
