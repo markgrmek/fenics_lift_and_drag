@@ -10,7 +10,7 @@ $\dot{u} + \nabla u \cdot u - \nu \Delta u + \nabla p = f, \qquad \nabla \cdot u
 
 with constant velocity boundary condtition on the left, top and bottom domain boundary, zero pressure boundary condition on the right domain boundary and zero velocity boundary condition around the cylinder
 
-<img src="BCs.PNG" alt="Boundary conditions sketch" width="500"/>
+<img src="figs/BCs.PNG" alt="Boundary conditions sketch" width="500"/>
 
 The solution is obtained via the Chorins' method, which is preformed in 3 steps:
 
@@ -25,6 +25,11 @@ The solution is obtained via the Chorins' method, which is preformed in 3 steps:
 3.  Step - velocity correction step:
 
        $\langle u_h^n,c \rangle = \langle u_h^\star,v \rangle - \Delta t_n \langle \Delta p^n, v \rangle$
+
+<video width="500" controls>
+  <source src="figs/pres_anim.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## References
 
