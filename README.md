@@ -26,10 +26,13 @@ The solution is obtained via the Chorins' method, which is preformed in 3 steps:
 
        $\langle u_h^n,c \rangle = \langle u_h^\star,v \rangle - \Delta t_n \langle \Delta p^n, v \rangle$
 
-<video width="500" controls>
-  <source src="figs/pres_anim.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+## Visualization of results
+
+The obtained .pvd files can be visualized in ParaView, giving the following pressure and velocity field animations, respectively:
+
+![](https://github.com/markgrmek/fenics_lift_and_drag/blob/main/figs/pres_anim.gif)
+
+![](https://github.com/markgrmek/fenics_lift_and_drag/blob/main/figs/velo_anim.gif)
 
 ## References
 
