@@ -25,3 +25,14 @@ The solution is obtained via the Chorins' method, which is preformed in 3 steps:
 3.  Step - velocity correction step:
 
    $\langle u_h^n,c \rangle = \langle u_h^\star,v \rangle - \Delta t_n \langle \Delta p^n, v \rangle$
+
+## References
+
+[1] Massachusetts Institute of Technology, Woods Hole Oceanographic Institution, "Chapter 3: Fluid Dynamics Concepts," 2006. [Online]. Available: [https://www.whoi.edu/cms/files/12.800_Chapter_3_'06_25330.pdf](https://www.whoi.edu/cms/files/12.800_Chapter_3_'06_25330.pdf). [Accessed: 08-Feb-2026].
+
+[2] A. Logg, K.-A. Mardal, and G. Wells, "FEniCS Project: Navier-Stokes Demo Documentation," 2012. [Online]. Available: [https://fenicsproject.org/olddocs/dolfin/1.4.0/python/demo/documented/navier-stokes/python/documentation.html](https://fenicsproject.org/olddocs/dolfin/1.4.0/python/demo/documented/navier-stokes/python/documentation.html). [Accessed: 08-Feb-2026].
+
+[3] Ceyron, "Lid-Driven Cavity Example in FEniCS," GitHub. [Online]. Available: [https://github.com/Ceyron/machine-learning-and-simulation/blob/main/english/fenics/lid_driven_cavity.py](https://github.com/Ceyron/machine-learning-and-simulation/blob/main/english/fenics/lid_driven_cavity.py). [Accessed: 08-Feb-2026].
+
+[4] FEniCS Community, "How to get drag and lift coefficients for flow around a cylinder," FEniCS Forum, 2020. [Online]. Available: [https://fenicsproject.discourse.group/t/how-to-get-drag-and-lift-coefficients-for-flow-around-a-cylinder/6119](https://fenicsproject.discourse.group/t/how-to-get-drag-and-lift-coefficients-for-flow-around-a-cylinder/6119). [Accessed: 08-Feb-2026].
+
