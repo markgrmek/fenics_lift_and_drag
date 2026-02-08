@@ -10,7 +10,7 @@ $\dot{u} + \nabla u \cdot u - \nu \Delta u + \nabla p = f, \qquad \nabla \cdot u
 
 with constant velocity boundary condtition on the left, top and bottom domain boundary, zero pressure boundary condition on the right domain boundary and zero velocity boundary condition around the cylinder
 
-<img src="BCs.PNG" alt="Boundary conditions sketch" width="500"/>
+<img src="figs/BCs.PNG" alt="Boundary conditions sketch" width="500"/>
 
 The solution is obtained via the Chorins' method, which is preformed in 3 steps:
 
