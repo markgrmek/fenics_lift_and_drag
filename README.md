@@ -16,15 +16,15 @@ The solution is obtained via the Chorins' method, which is preformed in 3 steps:
 
 1. Step - ignore the pressure and momentum equation and calculate the tentative velocity $u^\star$:
 
-  $\langle\left(u_h^\star - u_h^{n-1}\right)/\Delta t_n, v \rangle + \langle\nabla u_h^{n-1} \cdot u_h^{n-1},v \rangle + \langle \nu \nabla u_h^n, \nabla v\rangle = \langle f, v \rangle$
+      $\langle\left(u_h^\star - u_h^{n-1}\right)/\Delta t_n, v \rangle + \langle\nabla u_h^{n-1} \cdot u_h^{n-1},v \rangle + \langle \nu \nabla u_h^n, \nabla v\rangle = \langle f, v \rangle$
   
 2.  Step - pressure correction step:
 
-  $\langle \nabla p^n, \nabla q \rangle = - \langle \nabla \cdot u_h^\star, q \rangle / \Delta t_n$
+      $\langle \nabla p^n, \nabla q \rangle = - \langle \nabla \cdot u_h^\star, q \rangle / \Delta t_n$
 
 3.  Step - velocity correction step:
 
-   $\langle u_h^n,c \rangle = \langle u_h^\star,v \rangle - \Delta t_n \langle \Delta p^n, v \rangle$
+       $\langle u_h^n,c \rangle = \langle u_h^\star,v \rangle - \Delta t_n \langle \Delta p^n, v \rangle$
 
 ## References
 
