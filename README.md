@@ -26,6 +26,11 @@ The solution is obtained via the Chorins' method, which is preformed in 3 steps:
 
        $\langle u_h^n,c \rangle = \langle u_h^\star,v \rangle - \Delta t_n \langle \Delta p^n, v \rangle$
 
+<video width="500" controls>
+  <source src="figs/pres_anim.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 ## References
 
 [1] Massachusetts Institute of Technology, Woods Hole Oceanographic Institution, "Chapter 3: Fluid Dynamics Concepts," 2006. [Online]. Available: [https://www.whoi.edu/cms/files/12.800_Chapter_3_'06_25330.pdf](https://www.whoi.edu/cms/files/12.800_Chapter_3_'06_25330.pdf). [Accessed: 08-Feb-2026].
